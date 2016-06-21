@@ -1,0 +1,1 @@
+"use strict";!function(){function a(a,b,c,d,e){return{request:function(a){return console.log("requete interceptee"),a},responseError:function(a){return console.log("reponse interceptee"),b.reject(a)}}}angular.module("meanApp2App.monintercepteur").factory("monIntercepteur",a)}();
